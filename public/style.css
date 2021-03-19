@@ -1,0 +1,39 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+
+main { 
+    width: 80%;
+    max-width: 1200px;
+    margin: 24px auto;
+    text-align: center;
+}
+
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 32px;
+}
+
+.member {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.member img{
+    float: left;
+    width: 72px;
+    border-radius: 12px;
+}
+
+.member h2{
+    font-size: 24px;
+}
+
+.members span {
+    font-size: 16px;
+    color: grey;
+}
